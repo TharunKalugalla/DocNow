@@ -67,9 +67,28 @@ All payment processes are secure and encrypted.
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Getting Started 
+
 
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/TharunKalugalla/DocNow.git
 cd DocNow
+```
+### 2. Install Dependencies
+```bash
+Copy
+Edit
+```
+### 3. Configure Environment Variables
+- Create a .env file in the root directory with the following:
+```
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+STRIPE_API_KEY=your_stripe_api_key
+RAZORPAY_API_KEY=your_razorpay_api_key
+```
+### 4. Run the Application
+```
+npm run dev
+```
